@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "flormod",
+  "version": "1.0.0",
+  "name": "Flor Mod",
+  "description": "Flor Mod for Minecraft 1.21.4",
+  "authors": [
+    "florWWQ"
+  ],
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.flor.mod.Mod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
